@@ -14,7 +14,7 @@ App::get("/imagerie", "default.imagerie","imagerie");
 App::post("/imagerie", "default.imagerie","imagerie");
 App::get("/lister-categorie-examens-imagerie", "default.listerCategorieExamensImagerie","lister_categorie_examens_imagerie");
 App::get("/lister-imagerie", "default.listerImagerie","lister_imagerie");
-App::get("/pos", "default.pos","pos");
+App::get("/pos", "pos.pointdevente","pos");
 
 
 App::get("/acces-utilisateur-:id", "utilisateur.acces", "acces_utilisateur")->avec("id",'[0-9]+');
