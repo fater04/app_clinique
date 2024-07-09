@@ -70,7 +70,7 @@ $configuration = array(
     "url" => $_GET['url'],
     "database" => $database,
     "configurationEmail"=>$configurationEmail,
-    "dossierProjet" => "clinique",
+    "dossierProjet" => "clinic",
     "nomApp" => "DefaultApp"
 );
 \systeme\Application\Configuration::addConfiguration($configuration,"DefaultApp");
